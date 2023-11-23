@@ -1,0 +1,551 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mainbody
+{
+  display: flex;
+/* height: 2628px; 
+width:100%;
+padding: 10px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+
+}
+/* Systech */
+
+.Frame290475 {
+  width: 100%;
+  height: 50px;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  display: inline-flex;
+}
+
+.SystechLogoNewWebp {
+  width: 16%;
+  height: 56px;
+  position: relative;
+  padding-top:-5px;
+}
+
+.QaProjectStatusReport {
+  color: #004B8B;
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+  line-height: 48px;
+  word-wrap: break-word;
+  padding-top:5px;
+  
+}
+
+
+/* src/styles.css*/
+ /* .header-container {
+  width: 100%;
+  height: 42px;
+  padding-left: 16px;
+  border-bottom: 1px #D6D9E1 solid;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+} 
+
+ .header-item {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+} 
+
+.header-title {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-family: Noto Sans;
+  font-weight: 600;
+  word-wrap: break-word;
+} 
+
+ .header-label {
+  text-align: center;
+  color: #545859;
+  font-size: 16px;
+  font-family: Noto Sans;
+  font-weight: 600;
+  word-wrap: break-word;
+}  */
+/* src/styles.css */
+ /* .HeaderTab {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  position: relative;
+} 
+
+ .HeaderTab:hover {
+  border-bottom-color: #345897;
+}
+
+.HeaderTab.active {
+  border-bottom-color: #345897;
+}
+
+.tabIndicator {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 2px;
+  background-color: #345897;
+}     */
+
+/* header_2 */
+/* Tabs.css */
+
+.Tabs {
+  width: 1572px;
+  height: 42px;
+  padding-left: 16px;
+  border-bottom: 1px #D6D9E1 solid;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+}
+
+/* Add styles for other classes as needed */
+.Frame12136,
+.Frame12139,
+.Frame12131,
+.Frame12137,
+.Frame12138 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.Insight,
+.Unisecure,
+.DecommissionLine,
+.SupplySense,
+.UploadsArchives {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Noto Sans';
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.Insight {
+  color: black;
+}
+
+.Unisecure,
+.DecommissionLine,
+.SupplySense,
+.UploadsArchives {
+  color: #545859;
+}
+
+
+/*  status */
+
+.Frame290476 {
+  width: 100%;
+  height: 120px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  display: inline-flex;
+}
+
+.Heading1 {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+}
+
+.ProjectStatus {
+  height: 38px;
+  padding-left: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 9px;
+  display: flex;
+  /* ... (rest of the inline styles) */
+}
+
+.DivLeftColumn {
+  width: 150px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+}
+
+.Heading3 {
+  align-self: stretch;
+  height: 38px;
+  padding-top: 15px;
+  /* padding-bottom: 5px; */
+  padding-left: 5px;
+  /* padding-right: 599.60px; */
+  background: rgba(255, 255, 255, 0);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.ProjectStatusTitle {
+  color: #333333;
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.FeatureStatus {
+  width: 72px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #FFCF53;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Container {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+}
+
+.Inprogress {
+  color: black;
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.Row {
+  background: #F2F2F2;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  /* ... (rest of the inline styles) */
+}
+
+.Data {
+  height: 32px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #004B8B;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.ReportDate {
+  color: white;
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.Frame290414 {
+  width: 200px;
+  align-self: stretch;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.DataInQa {
+  color: #212529;
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.List {
+  padding-top:5px;
+  height: 50px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  width:100%;
+}
+
+.Item {
+  align-self: stretch;
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #F2F2F2;
+  border-bottom: 0.80px #CCCCCC solid;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  /* ... (rest of the inline styles) */
+}
+
+.GmpArchivalFeatureIsNotCompleteAndInImplementationPhase,
+.Sev2TicketsInOpenStatusAreDelayingQaClosureOnFeatureTestingDevEtaForDefectClosureIs20thOct {
+  color: #212529;
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+/* version */
+.DivTableColumn_version {
+  width: 57%;
+  height: 150px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border: 1px #CCCCCC solid;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+}
+ .Table_version {
+  height: 150px;
+  padding: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+} 
+
+.Row_version {
+  width: 100%;
+  background: #F2F2F2;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  display: inline-flex;
+}
+
+.Data_version {
+  flex: 1 1 0;
+  height: 32px;
+  padding-top: 1px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 250px;
+  background: #F2F2F2;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.CurrentReleaseVersion,
+.CurrentStage,
+.NextMilestone {
+  color: black;
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+  text-align:left;
+}
+
+.Frame290414_version {
+  flex: 1 1 0;
+  align-self: stretch;
+  background: #F2F2F2;
+  justify-content: flex-start;
+  align-items: right;
+  gap: 8px;
+  display: flex;
+ 
+}
+
+.DataInQa_version {
+  color: #212529;
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+  
+}
+
+.Body_version {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  display: flex;
+} */
+
+/* Release details header */
+.Frame290412 {
+  width: 100%;
+  height: 51px;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: white;
+  border-bottom: 8px #D9E4EE solid;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+}
+
+.Frame290411 {
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 4px;
+  display: flex;
+}
+
+.PermissionManagement {
+  color: black;
+  font-size: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+/* footer */
+.Frame290474 {
+  width: 1519.20px;
+  height: 150px;
+  padding-top: 50px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  display: inline-flex;
+}
+
+.Footer {
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 26px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #545859;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: flex;
+}
+
+.PH2d26d4e1f3,
+.PH2d41fedd7f {
+  align-self: stretch;
+  height: auto; /* Changed to auto from fixed height */
+  padding-left: 684.25px;
+  padding-right: 683.95px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.Systech2023,
+.AllRightsReserved {
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  word-wrap: break-word;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+
+.AllRightsReserved {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
